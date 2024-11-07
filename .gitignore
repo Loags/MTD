@@ -1,4 +1,4 @@
-# Visual Studio 2015 user specific files
+# Visual Studio 2015+ user specific files
 .vs/
 
 # Compiled Object files
@@ -72,3 +72,36 @@ Plugins/**/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+
+# Local Configurations (User-specific settings)
+Config/DefaultEditor.ini
+Config/DefaultEditorLayout.ini
+Config/DefaultEditorSettings.ini
+Config/DefaultGameUserSettings.ini
+
+# macOS System files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows Thumbnail Cache
+Thumbs.db
+
+# Backup files
+*.bak
+
+# Temporary files
+*.tmp
+*.temp
+
+# Unreal's auto-saved files
+*.autosave
+
+# Logs and crash reports
+Saved/Logs/
+Saved/Crashes/
+Saved/Backups/
+
+# User-specific workspace settings (IDE-specific)
+.idea/
+.vscode/
