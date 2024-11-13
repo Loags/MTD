@@ -6,7 +6,6 @@
 IMPLEMENT_PRIMARY_GAME_MODULE(FDefaultGameModuleImpl, MTD, "MTD");
 
 DEFINE_LOG_CATEGORY(MTDLog);
-DEFINE_LOG_CATEGORY(MTDLogCombat);
 
 void DrawLineBetweenActors(AActor* Actor1, AActor* Actor2, UWorld* World, FColor LineColor, float LineThickness, float Duration)
 {
